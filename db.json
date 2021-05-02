@@ -1,0 +1,10 @@
+{
+    "bg": "https://miro.medium.com/max/2400/1*2tmzU7bve-VlTkOMWsk_Hw.jpeg",
+    "theme": {
+        "colors" : {
+            "divFundo" : "#4f4f4f",
+            "divLoginFundo" : "#fff",
+            "primary" : "#3d5afe"
+        }
+    }
+}
