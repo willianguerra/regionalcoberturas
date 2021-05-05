@@ -1,4 +1,4 @@
-import styles from './styles.module.sass'
+import styles from './styles.module.scss'
 
 export function Header() {
     return (
@@ -7,7 +7,8 @@ export function Header() {
                 <img src="/images/logo.jpg" alt="" />
             </span>
             <p>Home</p>
-            <p>Obras</p>
+            <p>Serviços</p>
+            <p>Empresa</p>
             <p>Contato</p>
         </header>
     );

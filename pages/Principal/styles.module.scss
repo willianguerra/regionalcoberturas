@@ -1,0 +1,41 @@
+@import "../../styles/media.scss";
+
+.principal {
+  width: 100%;
+  flex-direction: column;
+  // min-height: 500px;
+}
+.slider {
+  width: 100%;
+  height: 21rem;
+  background-image: url("../../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lineCard {
+  width: 100%;
+  height: 18rem;
+  background-color: var(--cardLine);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .cardInfos {
+    background-color: var(--card);
+    width: 22rem;
+    height: 14rem;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 6px;
+    box-shadow: 0.02rem 0.02rem 1rem #b9b8b8;
+    user-select: none;
+  }
+  .cardInfos:hover{
+    width: 22.6rem;
+    height: 14.6rem;
+    transition: 0.5s;
+  }
+}
