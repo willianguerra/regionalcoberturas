@@ -1,11 +1,15 @@
-import { Header, Footer } from "./HeaderFooter/index"
-import { Principal } from "../pages/Principal/index"
+import { Header } from "./componentes/Header/index"
+import { Footer } from "./componentes/Footer/index"
+import { Principal } from "../pages/home/index"
+
 
 export default function Home() {
     return (
         <>
             <Header />
-            <Principal />
+            <main>
+                <Principal />
+            </main>
             <Footer />
 
         </>

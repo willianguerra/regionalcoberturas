@@ -2,11 +2,10 @@ import styles from './styles.module.scss'
 
 export function Principal() {
     return (
-        <main className={styles.principal}>
+        <div>
             <div className={styles.slider}>
                 AQUI VAI TER UM LOOPING DE FOTOS DA REGIONAL
             </div>
-            {/* aqui vai ser um card com os parceiros */}
             <div className={styles.lineCard}>
                 {/* vai mandar para tela empresa */}
                 <div className={styles.cardInfos}>
@@ -44,6 +43,6 @@ export function Principal() {
                     </p>
                 </div>
             </div>
-        </main>
+        </div>
     );
 }
