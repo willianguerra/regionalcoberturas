@@ -1,4 +1,4 @@
-@import "../../styles/media.scss";
+@import "../../../styles/media.scss";
 
 .slider {
   width: 100%;
@@ -14,7 +14,7 @@
 .lineCard {
   width: 100%;
   height: 18rem;
-  background-color: var(--cardLine);
+  background-color: #0a0506;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,7 +26,11 @@
     padding: 1rem;
     margin: 1rem;
     border-radius: 6px;
-    box-shadow: 0.02rem 0.02rem 1rem #b9b8b8;
+    color: white;
+    text-align: center  ;
+    border: 1px solid transparent;
+    border-image: linear-gradient(left, #E90000, #c03131);
+    border-image-slice: 1;
     user-select: none;
   }
   .cardInfos:hover{

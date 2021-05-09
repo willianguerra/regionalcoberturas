@@ -8,6 +8,10 @@ export function Principal() {
             </div>
             <div className={styles.lineCard}>
                 {/* vai mandar para tela empresa */}
+
+                {/* <i className="fas fa-money-bill-wave"></i>
+                        <i className="fas fa-briefcase"></i>
+                        <i className="far fa-building"></i> */}
                 <div className={styles.cardInfos}>
                     <h2 >
                         A Empresa
